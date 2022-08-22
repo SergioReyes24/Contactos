@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3>Lista de Contactos</h3>
+
+        <% Contactos.forEach(function(contacto){ %>
+            <table border="1">
+                <tr>
+                    <td>
+                        Nombre: <%= contacto.Nombre %> <br>
+                        Número de Casa: <%= contacto.NumeroCasa %> <br>
+                        Número de Casa: <%= contacto.NumeroCasa %> <br>
+                        Relación: <%= contacto.Relacion %>
+                    </td>
+                </tr>
+                <br>
+            </table>
+        <%})%>
+            <br>
+        <a href="/">Inicio</a>
+    </body>
+</html>
